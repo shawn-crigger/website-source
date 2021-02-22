@@ -4,9 +4,7 @@
 		<div class="row no-gutters portfolio">
 			<div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 				<h2 class="">Job Description</h2>
-				<p class="text-muted">
-				{{website.full_description}}
-				</p>
+				<markdown-it-vue class="md-body" :content="website.full_description" :options="mdOptions" />
 			</div>
 			<div class="portfolio-gallery">
 			   <gallery :images="fullsize" :index="index" @close="index = null" style="color: white;"></gallery>
@@ -25,11 +23,25 @@
 
 <script>
 import VueGallery from 'vue-gallery';
+import MarkdownItVue from 'markdown-it-vue'
+import 'markdown-it-vue/dist/markdown-it-vue.css'
+
 export default {
 	    data:function(){
 	      return {
 	        website:[],
-	        index: null
+	        index: null,
+	        mdOptions: {
+				markdownIt: {
+					linkify: true
+				},
+				linkAttributes: {
+					attrs: {
+						target: '_blank',
+						rel: 'noopener'
+					}
+				}
+			}
 	      };
 	    },
 	    created: function () {
@@ -52,6 +64,7 @@ export default {
 	    	}
 	    },
 	    components: {
+	      'MarkdownItVue': MarkdownItVue,
 	      'gallery': VueGallery
 	    }
 	}

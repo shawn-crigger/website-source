@@ -1,0 +1,5 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: shawn-crigger.herokuapp.com
+Token: fcd699bd2fa38f8daf0e48f0746369f037d35f62d6ff76888aa4aefa3bbd299b
+

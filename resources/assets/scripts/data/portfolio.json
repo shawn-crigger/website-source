@@ -1,5 +1,13 @@
 [
 	{
+		"title" : "Owner Direct Vacation Rentals",
+		"url" : "https://www.ownerdirectvacationrentals.net/",
+		"date" : "2019-01",
+		"task" : "Build plugin that pulls listings from Escapia API and handles bookings.",
+		"slug" : "/portfolio/owner-direct-vacation-rentals/",
+		"thumbnail" : "https://res.cloudinary.com/crigger-assets/image/upload/v1558035670/websites/odvr/odvr-thumb.jpg"
+	},
+	{
 		"title" : "Explore North Myrtle Beach",
 		"url" : "https://www.explorenorthmyrtlebeach.com/",
 		"date" : "2015-01",

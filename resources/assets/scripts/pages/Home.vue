@@ -3,10 +3,10 @@
 		<section>
 			<h1 class="title">About Me:</h1>
 			<p class="text-muted">
-				Hello, my name is Shawn Crigger, a self taught geek who grew up immersed in computers. Learning to program on my first Vic20 and getting my first 300 BAUD modem for my C64 were life changing events.
+				Hello, my name is Shawn Crigger, a self-taught geek who grew up immersed in computers. Learning to program on my first Vic20 and getting my first 300 BAUD modem for my C64 were life-changing events.
 			</p>
 			<p class="text-muted">
-				After exploring the few BBS systems I could find back in those days, and of course searching for WAREZ (what 8 or 9 year old didn't?). Eventually I moved to an Apple ][e and a Tandy, and finally, my first IBM 386.
+				After exploring the few BBS systems I could find back in those days, and of course, searching for WAREZ (what 8 or 9 years old didn't?). Eventually, I moved to an Apple ][e and a Tandy, and finally, my first IBM 386.
 			</p>
 			<p class="text-muted">
 				When the first 486-DX came out I got one as a Christmas gift, then I worked any odd job a boy that young could work in order to buy myself one of the very first US Robotics 14.4k modems. Years before the personal computer became attainable for most people, computers had already become an essential part of my life.
@@ -17,14 +17,17 @@
 			<p class="text-muted">
 				With countless hours and an unyielding determination and discipline, what began as a fun hobby to learn in my free time has grown into a successful career as a full-time Web Developer.
 			</p>
+			<p class="text-muted">
+				Nowadays, I am a very experienced full stack developer that works with PHP, JavaScript, AngularJS, CSS3, and many other exciting new technologies, to bring my clients dreams to life!
+			</p>
 		</section>
 		<section>
 			<h2 class="title">Tech I use</h2>
 			<p class="text-muted"><em>I'm always excited to learn some new technology!</em></p>
 			<div class="brands row">
 				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
-					<a href="https://atom.io/" target="_blank">
-						<img src="/images/logos/atom.svg" alt="Atom" class="img-fluid">
+					<a href="https://www.sublimetext.com/3" target="_blank">
+						<img src="/images/logos/sublime-text.svg" alt="Sublime Text 3" class="img-fluid">
 					</a>
 				</div>
 				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
@@ -81,6 +84,13 @@
 				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
 					<a href="https://wordpress.org/" target="_blank">
 						<img src="/images/logos/wordpress.svg" alt="Wordpress" class="img-fluid">
+					</a>
+				</div>
+			</div>
+			<div class="brands row">
+				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
+					<a href="https://angularjs.org/" target="_blank">
+						<img src="/images/logos/angular.svg" alt="AngularJS" width="60" class="img-fluid">
 					</a>
 				</div>
 			</div>
